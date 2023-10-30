@@ -203,6 +203,10 @@ input:focus {
         width: 100%;
     }
 
+    #form .gearforgithub {
+        opacity: 0;
+    }
+
     .user-info {
         margin-top: 1rem;
     }
