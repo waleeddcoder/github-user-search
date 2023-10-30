@@ -18,6 +18,21 @@ body {
     min-height: 100vh;
 }
 
+.loading {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    border: 5px solid rgba(255, 255, 255, 0.3);
+    border-top: 5px solid #ff7426;
+    border-radius: 50%;
+    animation: spin 2s linear infinite;
+}
+
+
 #form {
     position: relative;
 
