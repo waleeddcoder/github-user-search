@@ -29,9 +29,9 @@ const getUser = async (username) => {
                         <p>${data.bio}</p>
         
                         <ul class="info">
-                            <li>${data.followers}<strong>Followers</strong></li>
-                            <li>${data.following}<strong>Following</strong></li>
-                            <li>${data.public_repos}<strong>Repos</strong></li>
+                            <li><strong>Followers</strong>-${data.followers}</li>
+                            <li><strong>Following</strong>-${data.following}</li>
+                            <li><strong>Repos</strong>-${data.public_repos}</li>
                         </ul>
         
                         <div id="repos">
